@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Icons -->
+    <link rel="stylesheet" type="text/css" href="vendor/css/font-awesome.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="resume.css">
+    <!-- Page title -->
+    <title>{{contact.name}} - Resume</title>
+  </head>
+  <body>
+    <div class="resume">
+      <!-- Resume header -->
+      <header class="resume-header">
+        <div class="resume-presentation">
+          <h1 class="resume-name">{{contact.name}}</h1>
+          <h3 class="resume-label">Resume</h3>
+        </div>
+        <!-- Contact information -->
+        <div class="resume-contact">
+          {{#contact.phone}}
+            <span><i class="fa fa-phone"></i> {{.}}</span>
+          {{/contact.phone}}
+          {{#contact.address}}
+            <span><i class="fa fa-home"></i> {{.}}</span>
+          {{/contact.address}}
+          {{#contact.webpage}}
+            <span><i class="fa fa-feed"></i> <a href="{{url}}">{{name}}</a></span>
+          {{/contact.webpage}}
+          {{#contact.email}}
+            <span><i class="fa fa-envelope"></i> <a href="mailto:{{.}}">{{.}}</a></span>
+          {{/contact.email}}
+          {{#contact.github}}
+            <span><i class="fa fa-github-alt"></i> <a href="{{url}}">{{name}}</a></span>
+          {{/contact.github}}
+          {{#contact.linkedin}}
+            <span><i class="fa fa-linkedin-square"></i> <a href="{{url}}">{{name}}</a></span>
+          {{/contact.linkedin}}
+          {{#contact.misc}}
+            <span><a href="{{url}}">{{name}}</a></span>
+          {{/contact.misc}}
+        </div>
+      </header>
+      <!-- Resume content -->
+      <div class="resume-content">
+        {{#introduction}}
+          <!-- Introduction paragraph -->
+          <div class="resume-introduction">
+            {{.}}
+          </div>
+        {{/introduction}}
+        {{#sections}}
+          <!-- Sections -->
+          <div class="resume-section">
+            <div class="resume-section-header">
+              <span class="resume-section-decorator"></span>
+              <h2 class="resume-section-name">{{name}}</h2>
+            </div>
+            <div class="resume-section-content">
+              {{#entries}}
+                <div class="resume-section-item">{{item}}</div>
+                <div class="resume-section-entry">
+                  {{#what}}
+                    <span class="resume-section-entry-what">{{.}}</span>
+                  {{/what}}
+                  {{#where}}
+                    <span class="resume-section-entry-where">&nbsp;-&nbsp;{{.}}</span>
+                  {{/where}}
+                  {{#description}}
+                    <span class="resume-section-entry-desc">{{.}}</span>
+                  {{/description}}
+                  {{#achievements}}
+                    <span class="resume-section-entry-enum">
+                      <i class="resume-separator fa fa-circle-o fa-fw"></i> <span>{{.}}</span>
+                    </span>
+                  {{/achievements}}
+                  {{#enum}}
+                    <span class="resume-section-entry-enum">
+                      <i class="resume-separator fa fa-circle-o fa-fw"></i> <span>{{.}}</span>
+                    </span>
+                  {{/enum}}
+                  <span class="resume-section-dentries">
+                    {{#double_enum}}
+                      <span class="resume-section-entry-denum">
+                        <i class="resume-separator fa fa-circle-o fa-fw"></i> <span>{{.}}</span>
+                      </span>
+                    {{/double_enum}}
+                  </span>
+                </div>
+              {{/entries}}
+            </div>
+          </div>
+        {{/sections}}
+      </div>
+    </div>
+  </body>
+</html>

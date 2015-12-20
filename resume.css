@@ -1,0 +1,164 @@
+/*
+  Letter size: 8.5 by 11 inches
+  A4 size: 210 by 297 millimiters;
+*/
+html {
+  background-color: #525659;
+  padding: 60px;
+}
+body {
+  background-color: white;
+  width: 8.5in;
+  height: 11in;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+  font-family: Calibri;
+}
+@media print {
+  html {
+    padding: 0;
+  }
+  body {
+    box-shadow: none;
+  }
+}
+h1,h2,h3 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.resume {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.resume-header {
+  width: 100%;
+}
+.resume-presentation {
+  width: 60%;
+  float: left;
+}
+.resume-name {
+  font-size: 22pt;
+  font-weight: 100;
+  letter-spacing: -.5px;
+}
+.resume-label {
+  font-size: 16pt;
+  font-style: italic;
+  font-weight: 100;
+  color: #666;
+}
+.resume-contact {
+  width: 40%;
+  float: right;
+  font-size: 9pt;
+}
+.resume-contact span {
+  clear: both;
+  float: right;
+  color: #666;
+}
+.resume-contact a {
+  color: #666;
+}
+.resume-content {
+  margin-top: 7px;
+  float: left;
+  clear: both;
+}
+.resume-introduction {
+  font-size: 11pt;
+  margin-bottom: 5px;
+}
+.resume-section {
+  width: 100%;
+}
+.resume-section-header {
+  width: 100%;
+  color: rgb(22%,45%,70%);
+  clear: left;
+  float: left;
+}
+.resume-section-decorator {
+  background-color: rgb(22%,45%,70%);
+  display: inline-block;
+  width: 11%;
+  height: 6px;
+  margin-top: 8px;
+  margin-right: 1%;
+  float: left;
+}
+.resume-section-name {
+  float: left;
+  display: inline-block;
+  font-size: 14pt;
+  font-weight: 100;
+}
+.resume-section-content {
+  float: left;
+  width: 100%;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+.resume-section-item {
+  float: left;
+  width: 11%;
+  min-height: 1px;
+  height: 100%;
+  font-size: 9pt;
+  text-align: right;
+  margin-right: 1%;
+  line-height: 12pt;
+  display: block;
+  clear: left;
+}
+.resume-section-entry {
+  width: 88%;
+  font-size: 10pt;
+  line-height: 16px;
+  display: block;
+  clear: none;
+  float: left;
+  margin-bottom: 5px;
+}
+.resume-section-entry-what {
+  font-weight: bold;
+  clear: left;
+  float: left;
+}
+.resume-section-entry-where {
+  font-style: italic;
+  clear: right;
+  float: left;
+}
+.resume-section-entry-desc {
+  clear: both;
+  float: left;
+}
+.resume-section-entry-enum {
+  clear: both;
+  float: left;
+  font-size: 9pt;
+}
+.resume-section-dentries {
+  clear: both;
+  float: left;
+  width: 88%;
+}
+.resume-section-entry-denum {
+  width: 50%;
+  float: left;
+}
+.resume-separator {
+  font-size: 5pt;
+  color: rgb(22%,45%,70%);
+  vertical-align: middle;
+  line-height: 9pt;
+}

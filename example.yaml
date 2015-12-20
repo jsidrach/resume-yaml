@@ -1,0 +1,89 @@
+# Resume data - Comment fields not wanted
+# Contact information
+contact:
+  name: "Jane Doe"
+  phone: "(666) 007-1337"
+  webpage:
+    name: "eff.org"
+    url: "https://www.eff.org/"
+  email: "jane.doe@email.her"
+# address: "101 Street, CA"
+  github:
+    name: "github.com/janedoe"
+    url: "https://github.com/janedoe"
+  linkedin:
+    name: "linkedin.not/in/janedoe"
+    url: "https://linkedin.not/in/janedoe"
+# misc:
+#   - name: "Name1"
+#     url: "Url1"
+#   - name: "Name2"
+#     url: "Url2"
+
+# Introduction (opening paragraph)
+introduction: "Looking for a summer internship where I can prove myself"
+
+# Resume sections
+sections:
+  # Education
+  - name: "Education"
+    entries:
+      - item: "2014 - Present"
+        what: "PhD. in Hardware Design"
+        where: "Graduate School"
+        description: "I regret nothing!"
+      - item: "2010 - 2014"
+        what: "Bachelor in Computer Engineering"
+        where: "Top notch college"
+        description: "GPA: 4.0/4.0 - Area of specialization: hardware design"
+  # Professional experience
+  - name: "Recent experience"
+    entries:
+      - item: "2014 - Present"
+        what: "Contractor"
+        where: "STAR Labs"
+        achievements:
+          - "Researching and doing lots of science"
+          - "Published in major journals"
+  # Projects
+  - name: "Relevant projects"
+    entries:
+      - item: "Summer 2015"
+        what: "LED design"
+        where: "Hardware Company"
+        achievements:
+          - "Side project"
+  # Honors, grants and awards
+  - name: "Honors, grants and awards"
+    entries:
+      - item: "2011 - 2015"
+        what: "Best employee of the year"
+        where: "Top company"
+        description: "Awarded four consecutive times for my dedication to the company"
+  # Other courses
+  - name: "Other courses"
+    entries:
+      - item: "Summer 2015"
+        what: "Color painting"
+        where: "Local academy"
+  # Technical skills
+  - name: "Technical skills"
+    entries:
+      - item: "Prog. Langs."
+        description: "Lisp, Ruby, Go"
+      - item: "Office"
+        description: "LibreOffice, InkScape, GIMP"
+  # Languages
+  - name: "Languages"
+    entries:
+      - item: "English"
+        description: "Native"
+      - item: "Chinese"
+        description: "Intermediate"
+  # Hobbies
+  - name: "Hobbies"
+    entries:
+      double_enum: [
+                     "Painting",
+                     "Skydiving"
+                   ]
