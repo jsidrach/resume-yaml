@@ -62,7 +62,15 @@
                 <div class="resume-section-item">{{item}}</div>
                 <div class="resume-section-entry">
                   {{#what}}
-                    <span class="resume-section-entry-what">{{.}}</span>
+                    <span class="resume-section-entry-what">
+                    {{#what-url}}
+                      <a href="{{.}}">
+                    {{/what-url}}
+                    {{.}}
+                    {{#what-url}}
+                      </a>
+                    {{/what-url}}
+                    </span>
                   {{/what}}
                   {{#where}}
                     <span class="resume-section-entry-where">&nbsp;-&nbsp;{{.}}</span>

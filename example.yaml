@@ -50,6 +50,7 @@ sections:
     entries:
       - item: "Summer 2015"
         what: "LED design"
+        what-url: "http://lmgtfy.com/?q=led+design"
         where: "Hardware Company"
         achievements:
           - "Side project"

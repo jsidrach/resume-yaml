@@ -31,6 +31,9 @@ h1,h2,h3 {
 a {
   text-decoration: none;
 }
+a:hover {
+  text-decoration: underline;
+}
 .resume {
   padding-top: 45px;
   padding-bottom: 45px;
@@ -132,6 +135,9 @@ a {
   font-weight: bold;
   clear: left;
   float: left;
+}
+.resume-section-entry-what a {
+  color: black;
 }
 .resume-section-entry-where {
   font-style: italic;
