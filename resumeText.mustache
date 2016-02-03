@@ -9,8 +9,9 @@
   - LinkedIn: {{url}}{{/contact.linkedin}}{{#contact.misc}}
   - {{name}}: {{url}}{{/contact.misc}}{{#introduction}}
 
+{{.}}{{/introduction}}
 
-{{.}}{{/introduction}}{{#sections}}
+{{#sections}}
 {{name}}
 ----
 {{#entries}}
@@ -19,4 +20,6 @@
     - {{.}}{{/achievements}}{{#enum}}
     - {{.}}{{/enum}}{{#double_enum}}
     - {{.}}{{/double_enum}}
-{{/entries}}{{/sections}}
+{{/entries}}
+
+{{/sections}}

@@ -1,0 +1,57 @@
+Jane Doe - Resume
+----
+  - Email: jane.doe@email.her
+  - Phone: (666) 007-1337
+  - Webpage: https://www.eff.org/
+  - GitHub: https://github.com/janedoe
+  - LinkedIn: https://linkedin.not/in/janedoe
+
+Looking for a summer internship where I can prove myself
+
+Education
+----
+  - PhD. in Hardware Design, Graduate School [2014 - Present]
+    I regret nothing!
+  - Bachelor in Computer Engineering, Top notch college [2010 - 2014]
+    GPA: 4.0/4.0 - Area of specialization: hardware design
+
+Recent experience
+----
+  - Contractor, STAR Labs [2014 - Present]
+    - Researching and doing lots of science
+    - Published in major journals
+
+Relevant projects
+----
+  - LED design, Hardware Company [Summer 2015]
+    - Side project
+
+Honors, grants and awards
+----
+  - Best employee of the year, Top company [2011 - 2015]
+    Awarded four consecutive times for my dedication to the company
+
+Other courses
+----
+  - Color painting, Local academy [Summer 2015]
+
+Technical skills
+----
+  [Prog. Langs.]
+    Lisp, Ruby, Go
+  [Office]
+    LibreOffice, InkScape, GIMP
+
+Languages
+----
+  [English]
+    Native
+  [Chinese]
+    Intermediate
+
+Hobbies
+----
+  []
+    - Painting
+    - Skydiving
+
