@@ -2,6 +2,7 @@
 
 Simple one page resume, generated from a [YAML](http://www.yaml.org/) data file using [mustache](https://mustache.github.io/).
 Inspired in the [moderncv](https://www.ctan.org/tex-archive/macros/latex/contrib/moderncv/) *LaTeX* package.
+Outputs to HTML and plain text.
 
 Screenshots
 ----
