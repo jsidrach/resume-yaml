@@ -1,12 +1,9 @@
 # resume-yaml
 
-Simple one page resume, generated from a [YAML](http://www.yaml.org/) data file using [mustache](https://mustache.github.io/).
-Inspired in the [moderncv](https://www.ctan.org/tex-archive/macros/latex/contrib/moderncv/) *LaTeX* package.
+Simple & elegant one page resume, generated from a [YAML](http://www.yaml.org/) data file using [mustache](https://mustache.github.io/).
 Outputs to HTML and plain text.
 
-Screenshots
-----
-![](example.png)
+[Example pdf](example.pdf)
 
 Installation
 ----

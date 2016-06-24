@@ -15,7 +15,8 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
-  font-family: Calibri;
+  font-family:  'Source Sans Pro', sans-serif;
+  color: #3E3E3E;
 }
 @media print {
   html {
@@ -49,14 +50,15 @@ a:hover {
 }
 .resume-name {
   font-size: 22pt;
-  font-weight: 100;
+  font-weight: 500;
   letter-spacing: -.5px;
+  color: #3E3E3E;
 }
 .resume-label {
   font-size: 16pt;
   font-style: italic;
   font-weight: 100;
-  color: #666;
+  color: #3E3E3E;
 }
 .resume-contact {
   width: 40%;
@@ -66,10 +68,10 @@ a:hover {
 .resume-contact span {
   clear: both;
   float: right;
-  color: #666;
+  color: #3E3E3E;
 }
 .resume-contact a {
-  color: #666;
+  color: #3E3E3E;
 }
 .resume-content {
   margin-top: 7px;
@@ -85,24 +87,17 @@ a:hover {
 }
 .resume-section-header {
   width: 100%;
-  color: rgb(22%,45%,70%);
+  color: #3E3E3E;
   clear: left;
   float: left;
-}
-.resume-section-decorator {
-  background-color: rgb(22%,45%,70%);
-  display: inline-block;
-  width: 11%;
-  height: 6px;
-  margin-top: 8px;
-  margin-right: 1%;
-  float: left;
+  border-bottom: 2px solid #3E3E3E;
 }
 .resume-section-name {
   float: left;
   display: inline-block;
-  font-size: 14pt;
-  font-weight: 100;
+  font-size: 12pt;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 .resume-section-content {
   float: left;
@@ -112,34 +107,32 @@ a:hover {
 }
 .resume-section-item {
   float: left;
-  width: 11%;
-  min-height: 1px;
-  height: 100%;
+  width: 10.5%;
   font-size: 9pt;
   text-align: right;
   margin-right: 1%;
-  line-height: 12pt;
   display: block;
   clear: left;
 }
 .resume-section-entry {
   width: 88%;
   font-size: 10pt;
-  line-height: 16px;
   display: block;
   clear: none;
   float: left;
   margin-bottom: 5px;
 }
 .resume-section-entry-what {
-  font-weight: bold;
+  color: #252525;
+  font-weight: 600;
   clear: left;
   float: left;
 }
 .resume-section-entry-what a {
-  color: black;
+  color: #252525;
 }
 .resume-section-entry-where {
+  color: #252525;
   font-style: italic;
   clear: right;
   float: left;
@@ -162,9 +155,40 @@ a:hover {
   width: 50%;
   float: left;
 }
-.resume-separator {
-  font-size: 5pt;
-  color: rgb(22%,45%,70%);
-  vertical-align: middle;
-  line-height: 9pt;
+
+/* Font */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url('vendor/fonts/SourceSansPro-Light.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url('vendor/fonts/SourceSansPro-Regular.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Source Sans Pro Semibold'), local('SourceSansPro-Semibold'), url('vendor/fonts/SourceSansPro-Semibold.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url('vendor/fonts/SourceSansPro-Bold.BFRXt'CDhS66znb_k.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Source Sans Pro Black'), local('SourceSansPro-Black'), url('vendor/fonts/SourceSansPro-Black.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
