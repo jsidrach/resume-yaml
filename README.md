@@ -1,6 +1,6 @@
-# resume-yaml
+# Resume-YAML
 
-Simple & elegant one page resume, generated from a [YAML](http://www.yaml.org/) data file using [mustache](https://mustache.github.io/).
+Elegant one page resume, generated from a [YAML](http://www.yaml.org/) data file using [mustache](https://mustache.github.io/).
 Outputs to HTML and plain text.
 
 [Example pdf](example.pdf)
