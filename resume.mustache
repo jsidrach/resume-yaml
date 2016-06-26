@@ -13,12 +13,12 @@
     <div class="resume">
       <!-- Resume header -->
       <header class="resume-header">
-        <div class="resume-presentation">
-          <h1 class="resume-name">{{contact.name}}</h1>
-          <h3 class="resume-label">Resume</h3>
+        <div class="header-presentation">
+          <h1 class="presentation-name">{{contact.name}}</h1>
+          <h3 class="presentation-label">Resume</h3>
         </div>
         <!-- Contact information -->
-        <div class="resume-contact">
+        <div class="header-contact">
           {{#contact.phone}}
             <span><i class="fa fa-phone"></i> {{.}}</span>
           {{/contact.phone}}
@@ -46,53 +46,55 @@
       <div class="resume-content">
         {{#introduction}}
           <!-- Introduction paragraph -->
-          <div class="resume-introduction">
+          <div class="content-introduction">
             {{.}}
           </div>
         {{/introduction}}
         {{#sections}}
           <!-- Sections -->
-          <div class="resume-section">
-            <div class="resume-section-header">
-              <h2 class="resume-section-name">{{name}}</h2>
+          <div class="content-section">
+            <div class="section-header">
+              <span>{{name}}</span>
             </div>
-            <div class="resume-section-content">
+            <div class="section-content">
               {{#entries}}
-                <div class="resume-section-item">{{item}}</div>
-                <div class="resume-section-entry">
-                  {{#what}}
-                    <span class="resume-section-entry-what">
-                    {{#what-url}}
-                      <a href="{{.}}">
-                    {{/what-url}}
-                    {{.}}
-                    {{#what-url}}
-                      </a>
-                    {{/what-url}}
-                    </span>
-                  {{/what}}
-                  {{#where}}
-                    <span class="resume-section-entry-where">&nbsp;-&nbsp;{{.}}</span>
-                  {{/where}}
+                <div class="content-entry">
+                  <div class="entry-header">
+                    {{#what}}
+                      <span class="entry-what">
+                      {{#what-url}}
+                        <a href="{{.}}">
+                      {{/what-url}}
+                      {{.}}
+                      {{#what-url}}
+                        </a>
+                      {{/what-url}}
+                      </span>
+                    {{/what}}
+                    {{#description-short}}
+                      <span class="entry-description-short">&nbsp;-&nbsp;{{.}}</span>
+                    {{/description-short}}
+                    {{#when}}
+                      <span class="entry-when">&nbsp;({{.}})</span>
+                    {{/when}}
+                    {{#where}}
+                      <span class="entry-where">{{.}}</span>
+                    {{/where}}
+                  </div>
                   {{#description}}
-                    <span class="resume-section-entry-desc">{{.}}</span>
+                    <span class="entry-description">{{.}}</span>
                   {{/description}}
-                  {{#achievements}}
-                    <span class="resume-section-entry-enum">
+                  {{#details}}
+                    <span class="entry-detail">
                       &#9675; <span>{{.}}</span>
                     </span>
-                  {{/achievements}}
-                  {{#enum}}
-                    <span class="resume-section-entry-enum">
-                      &#9675; <span>{{.}}</span>
-                    </span>
-                  {{/enum}}
-                  <span class="resume-section-dentries">
-                    {{#double_enum}}
-                      <span class="resume-section-entry-denum">
+                  {{/details}}
+                  <span class="entry-details-short">
+                    {{#details-short}}
+                      <span class="detail-short">
                         &#9675; <span>{{.}}</span>
                       </span>
-                    {{/double_enum}}
+                    {{/details-short}}
                   </span>
                 </div>
               {{/entries}}

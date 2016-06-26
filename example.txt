@@ -1,57 +1,68 @@
-Jane Doe - Resume
-----
-  - Email: jane.doe@email.her
-  - Phone: (666) 007-1337
-  - Webpage: https://www.eff.org/
-  - GitHub: https://github.com/janedoe
-  - LinkedIn: https://linkedin.not/in/janedoe
+Name Lastname - Resume
+--------
+- Email: example@email.com
+- Phone: phone number
+- Address: home address
+- Webpage: https://eff.org
+- GitHub: https://github.com/
+- LinkedIn: https://linkedin.com/
 
-Looking for a summer internship where I can prove myself
+Introduction paragraph, who are you, what motivates you and what are you looking for
 
 Education
-----
-  - PhD. in Hardware Design, Graduate School [2014 - Present]
-    I regret nothing!
-  - Bachelor in Computer Engineering, Top notch college [2010 - 2014]
-    GPA: 4.0/4.0 - Area of specialization: hardware design
+--------
+- Name of education program #1, Institution name #1 (Date #1 - Date #2)
+    GPA: X.X/4.0. Relevant courses: Course #1, Course #2, Course #3
+- Name of education program #2, Institution name #2 (Date #1 - Date #2)
+    GPA: X.X/10. Something relevant about the program
 
-Recent experience
-----
-  - Contractor, STAR Labs [2014 - Present]
-    - Researching and doing lots of science
-    - Published in major journals
+Experience
+--------
+- Work Title #1, Company or institution name, department #1 (Date #1 - Present)
+    - Detailed explanation about the work you did there #1
+    - Detailed explanation about the work you did there #2
+    - Really long and detailed explanation about the work you did there, explaining what you achieved and how did you achieved that, what obstacles you overcame and how it made you a better professional in your field of expertise
+- Work Title #2, Company or institution name, department #2 (Date #1 - Date #2)
+    - Detailed explanation about the work you did there #1
+    - Detailed explanation about the work you did there #2
 
-Relevant projects
-----
-  - LED design, Hardware Company [Summer 2015]
-    - Side project
+Projects
+--------
+- Project #1: short description of the project - https://github.com/
+    - Detailed explanation about the project goal or implementation #1
+    - Detailed explanation about the project goal or implementation #2
+    - Detailed explanation about the project goal or implementation #3
+
+Skills
+--------
+- Competences: Competence #1, Competence #2, Competence #3, Competence #4
+- Software: Software #1, Software #2, Software #3
 
 Honors, grants and awards
-----
-  - Best employee of the year, Top company [2011 - 2015]
-    Awarded four consecutive times for my dedication to the company
+--------
 
-Other courses
-----
-  - Color painting, Local academy [Summer 2015]
+    General overview of the honors, grands and awards you have received along your career
+    - Extremely long award name #1 (Date #1)
+    - Award name #2 (Date #2)
+    - Award name #3 (Date #3)
+    - Award name #4 (Date #4)
+    - Award name #5 (Date #5)
 
-Technical skills
-----
-  [Prog. Langs.]
-    Lisp, Ruby, Go
-  [Office]
-    LibreOffice, InkScape, GIMP
+Interests
+--------
+
+    - Interest #1
+    - Interest #2
 
 Languages
-----
-  [English]
-    Native
-  [Chinese]
-    Intermediate
+--------
+- Language #1: How fluent are you in language #1
+- Language #2: How fluent are you in language #2
+    - Certification #1 (Date #1) - Score: XXX/YYY
+    - Certification #2 (Date #2) - Score: XXX/TTT
 
-Hobbies
-----
-  []
-    - Painting
-    - Skydiving
+References
+--------
+
+    Description of how the recruiter can contact your references to verify your resume and skills or to talk about how was your past work at a company
 

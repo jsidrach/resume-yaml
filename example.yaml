@@ -1,90 +1,109 @@
-# Resume data - Comment fields not wanted
+# Example resume data
 # Contact information
 contact:
-  name: "Jane Doe"
-  phone: "(666) 007-1337"
+  name: "Name Lastname"
+  phone: "phone number"
+  address: "home address"
   webpage:
-    name: "eff.org"
-    url: "https://www.eff.org/"
-  email: "jane.doe@email.her"
-# address: "101 Street, CA"
+    name: "webpage"
+    url: "https://eff.org"
+  email: "example@email.com"
   github:
-    name: "github.com/janedoe"
-    url: "https://github.com/janedoe"
+    name: "github.com/username"
+    url: "https://github.com/"
   linkedin:
-    name: "linkedin.not/in/janedoe"
-    url: "https://linkedin.not/in/janedoe"
-# misc:
-#   - name: "Name1"
-#     url: "Url1"
-#   - name: "Name2"
-#     url: "Url2"
+    name: "linkedin.com/username"
+    url: "https://linkedin.com/"
 
 # Introduction (opening paragraph)
-introduction: "Looking for a summer internship where I can prove myself"
+introduction: "Introduction paragraph, who are you, what motivates you and what are you looking for"
 
 # Resume sections
 sections:
   # Education
   - name: "Education"
     entries:
-      - item: "2014 - Present"
-        what: "PhD. in Hardware Design"
-        where: "Graduate School"
-        description: "I regret nothing!"
-      - item: "2010 - 2014"
-        what: "Bachelor in Computer Engineering"
-        where: "Top notch college"
-        description: "GPA: 4.0/4.0 - Area of specialization: hardware design"
-  # Professional experience
-  - name: "Recent experience"
+      -
+        what: "Name of education program #1"
+        when: "Date #1 - Date #2"
+        where: "Institution name #1"
+        description: "GPA: X.X/4.0. Relevant courses: Course #1, Course #2, Course #3"
+      -
+        what: "Name of education program #2"
+        when: "Date #1 - Date #2"
+        where: "Institution name #2"
+        description: "GPA: X.X/10. Something relevant about the program"
+  # Experience
+  - name: "Experience"
     entries:
-      - item: "2014 - Present"
-        what: "Contractor"
-        where: "STAR Labs"
-        achievements:
-          - "Researching and doing lots of science"
-          - "Published in major journals"
+      -
+        what: "Work Title #1"
+        when: "Date #1 - Present"
+        where: "Company or institution name, department #1"
+        details:
+          - "Detailed explanation about the work you did there #1"
+          - "Detailed explanation about the work you did there #2"
+          - "Really long and detailed explanation about the work you did there, explaining what you achieved and how did you achieved that, what obstacles you overcame and how it made you a better professional in your field of expertise"
+      -
+        what: "Work Title #2"
+        when: "Date #1 - Date #2"
+        where: "Company or institution name, department #2"
+        details:
+          - "Detailed explanation about the work you did there #1"
+          - "Detailed explanation about the work you did there #2"
   # Projects
-  - name: "Relevant projects"
+  - name: "Projects"
     entries:
-      - item: "Summer 2015"
-        what: "LED design"
-        what-url: "http://lmgtfy.com/?q=led+design"
-        where: "Hardware Company"
-        achievements:
-          - "Side project"
+      -
+        what: "Project #1"
+        what-url: "https://github.com/"
+        description-short: "short description of the project"
+        details:
+          - "Detailed explanation about the project goal or implementation #1"
+          - "Detailed explanation about the project goal or implementation #2"
+          - "Detailed explanation about the project goal or implementation #3"
+  # Skills
+  - name: "Skills"
+    entries:
+      -
+        what: "Competences"
+        description-short: "Competence #1, Competence #2, Competence #3, Competence #4"
+      -
+        what: "Software"
+        description-short: "Software #1, Software #2, Software #3"
   # Honors, grants and awards
   - name: "Honors, grants and awards"
     entries:
-      - item: "2011 - 2015"
-        what: "Best employee of the year"
-        where: "Top company"
-        description: "Awarded four consecutive times for my dedication to the company"
-  # Other courses
-  - name: "Other courses"
+      -
+        description: "General overview of the honors, grands and awards you have received along your career"
+        details:
+          - "Extremely long award name #1 (Date #1)"
+        details-short:
+          - "Award name #2 (Date #2)"
+          - "Award name #3 (Date #3)"
+          - "Award name #4 (Date #4)"
+          - "Award name #5 (Date #5)"
+  # Interests
+  - name: "Interests"
     entries:
-      - item: "Summer 2015"
-        what: "Color painting"
-        where: "Local academy"
-  # Technical skills
-  - name: "Technical skills"
-    entries:
-      - item: "Prog. Langs."
-        description: "Lisp, Ruby, Go"
-      - item: "Office"
-        description: "LibreOffice, InkScape, GIMP"
+      -
+        details-short:
+          - "Interest #1"
+          - "Interest #2"
   # Languages
   - name: "Languages"
     entries:
-      - item: "English"
-        description: "Native"
-      - item: "Chinese"
-        description: "Intermediate"
-  # Hobbies
-  - name: "Hobbies"
+      -
+        what: "Language #1"
+        description-short: "How fluent are you in language #1"
+      -
+        what: "Language #2"
+        description-short: "How fluent are you in language #2"
+        details-short:
+          - "Certification #1 (Date #1) - Score: XXX/YYY"
+          - "Certification #2 (Date #2) - Score: XXX/TTT"
+  # References
+  - name: "References"
     entries:
-      double_enum: [
-                     "Painting",
-                     "Skydiving"
-                   ]
+      -
+        description: "Description of how the recruiter can contact your references to verify your resume and skills or to talk about how was your past work at a company"

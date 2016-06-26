@@ -9,6 +9,6 @@ example: example.yaml resume.css resume.mustache vendor/css/font-awesome.min.css
 .PHONY: install clean
 
 install:
-	sudo apt-get install ruby-mustache
+	sudo apt install ruby-mustache
 clean:
 	rm -f resume.html resume.txt resume.pdf example.html example.txt example.pdf

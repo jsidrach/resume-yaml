@@ -1,25 +1,23 @@
 {{contact.name}} - Resume
-----
+--------
 {{#contact.email}}
-  - Email: {{.}}{{/contact.email}}{{#contact.phone}}
-  - Phone: {{.}}{{/contact.phone}}{{#contact.address}}
-  - Address: {{.}}{{/contact.address}}{{#contact.webpage}}
-  - Webpage: {{url}}{{/contact.webpage}}{{#contact.github}}
-  - GitHub: {{url}}{{/contact.github}}{{#contact.linkedin}}
-  - LinkedIn: {{url}}{{/contact.linkedin}}{{#contact.misc}}
-  - {{name}}: {{url}}{{/contact.misc}}{{#introduction}}
+- Email: {{.}}{{/contact.email}}{{#contact.phone}}
+- Phone: {{.}}{{/contact.phone}}{{#contact.address}}
+- Address: {{.}}{{/contact.address}}{{#contact.webpage}}
+- Webpage: {{url}}{{/contact.webpage}}{{#contact.github}}
+- GitHub: {{url}}{{/contact.github}}{{#contact.linkedin}}
+- LinkedIn: {{url}}{{/contact.linkedin}}{{#contact.misc}}
+- {{name}}: {{url}}{{/contact.misc}}{{#introduction}}
 
 {{.}}{{/introduction}}
 
 {{#sections}}
 {{name}}
-----
-{{#entries}}
-  {{#what}}- {{.}}, {{/what}}{{#where}}{{.}} {{/where}}[{{item}}]{{#description}}
-    {{.}}{{/description}}{{#achievements}}
-    - {{.}}{{/achievements}}{{#enum}}
-    - {{.}}{{/enum}}{{#double_enum}}
-    - {{.}}{{/double_enum}}
+--------
+{{#entries}}{{#what}}- {{.}}{{#where}},{{/where}}{{/what}}{{#description-short}}{{#what}}: {{/what}}{{.}}{{/description-short}}{{#where}} {{.}}{{/where}}{{#when}} ({{.}}){{/when}}{{#what-url}} - {{.}}{{/what-url}}{{#description}}
+    {{.}}{{/description}}{{#details}}
+    - {{.}}{{/details}}{{#details-short}}
+    - {{.}}{{/details-short}}
 {{/entries}}
 
 {{/sections}}
