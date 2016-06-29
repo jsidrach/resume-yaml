@@ -52,14 +52,13 @@ a:hover {
 }
 .presentation-name {
   font-size: 22pt;
-  font-weight: 500;
-  letter-spacing: -.5px;
+  font-weight: 600;
   color: #3E3E3E;
 }
 .presentation-label {
   font-size: 16pt;
   font-style: italic;
-  font-weight: 100;
+  font-weight: 400;
   color: #3E3E3E;
 }
 .header-contact {
@@ -91,14 +90,29 @@ a:hover {
   color: #3E3E3E;
   clear: left;
   float: left;
-  border-bottom: 2px solid #3E3E3E;
+  /* border-bottom: 2px solid #3E3E3E; */
+  letter-spacing: +1.5px;
+  margin-bottom: -2px;
 }
-.section-header span {
+.section-header {
   float: left;
-  display: inline-block;
+  clear: none;
   font-size: 13pt;
   font-weight: 900;
   text-transform: uppercase;
+}
+.section-header span {
+  background-color: white;
+  magin-right: 10px;
+}
+.section-header span:after {
+  content: "";
+  display: block;
+  height: 13pt;
+  border-top: 3px solid #3E3E3E;
+  margin-top: -9pt;
+  margin-bottom: -6.5pt;
+  z-index: -1;
 }
 .section-content {
   float: left;

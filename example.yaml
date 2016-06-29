@@ -2,6 +2,7 @@
 # Contact information
 contact:
   name: "Name Lastname"
+  title: "Professional Title"
   phone: "phone number"
   address: "home address"
   webpage:

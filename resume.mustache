@@ -15,7 +15,7 @@
       <header class="resume-header">
         <div class="header-presentation">
           <h1 class="presentation-name">{{contact.name}}</h1>
-          <h3 class="presentation-label">Resume</h3>
+          <h3 class="presentation-label">{{contact.title}}</h3>
         </div>
         <!-- Contact information -->
         <div class="header-contact">
@@ -50,11 +50,11 @@
             {{.}}
           </div>
         {{/introduction}}
+        <!-- Sections -->
         {{#sections}}
-          <!-- Sections -->
           <div class="content-section">
             <div class="section-header">
-              <span>{{name}}</span>
+              <span>{{name}}&nbsp;</span>
             </div>
             <div class="section-content">
               {{#entries}}
