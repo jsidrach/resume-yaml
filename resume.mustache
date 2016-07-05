@@ -19,24 +19,24 @@
         </div>
         <!-- Contact information -->
         <div class="header-contact">
-          {{#contact.phone}}
-            <span><i class="fa fa-phone"></i> {{.}}</span>
-          {{/contact.phone}}
-          {{#contact.address}}
-            <span><i class="fa fa-home"></i> {{.}}</span>
-          {{/contact.address}}
-          {{#contact.webpage}}
-            <span><i class="fa fa-feed"></i> <a href="{{url}}">{{name}}</a></span>
-          {{/contact.webpage}}
-          {{#contact.email}}
-            <span><i class="fa fa-envelope"></i> <a href="mailto:{{.}}">{{.}}</a></span>
-          {{/contact.email}}
           {{#contact.github}}
             <span><i class="fa fa-github-alt"></i> <a href="{{url}}">{{name}}</a></span>
           {{/contact.github}}
           {{#contact.linkedin}}
             <span><i class="fa fa-linkedin-square"></i> <a href="{{url}}">{{name}}</a></span>
           {{/contact.linkedin}}
+          {{#contact.webpage}}
+            <span><i class="fa fa-feed"></i> <a href="{{url}}">{{name}}</a></span>
+          {{/contact.webpage}}
+          {{#contact.address}}
+            <span><i class="fa fa-home"></i> {{.}}</span>
+          {{/contact.address}}
+          {{#contact.email}}
+            <span><i class="fa fa-envelope"></i> <a href="mailto:{{.}}">{{.}}</a></span>
+          {{/contact.email}}
+          {{#contact.phone}}
+            <span><i class="fa fa-phone"></i> {{.}}</span>
+          {{/contact.phone}}
           {{#contact.misc}}
             <span><a href="{{url}}">{{name}}</a></span>
           {{/contact.misc}}
@@ -60,6 +60,12 @@
               {{#entries}}
                 <div class="content-entry">
                   <div class="entry-header">
+                    {{#where}}
+                      <span class="entry-where">{{.}}</span>
+                    {{/where}}
+                    {{#when}}
+                      <span class="entry-when">{{.}}</span>
+                    {{/when}}
                     {{#what}}
                       <span class="entry-what">
                       {{#what-url}}
@@ -74,12 +80,6 @@
                     {{#description-short}}
                       <span class="entry-description-short">&nbsp;-&nbsp;{{.}}</span>
                     {{/description-short}}
-                    {{#when}}
-                      <span class="entry-when">&nbsp;({{.}})</span>
-                    {{/when}}
-                    {{#where}}
-                      <span class="entry-where">{{.}}</span>
-                    {{/where}}
                   </div>
                   {{#description}}
                     <span class="entry-description">{{.}}</span>

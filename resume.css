@@ -47,7 +47,7 @@ a:hover {
   width: 100%;
 }
 .header-presentation {
-  width: 60%;
+  width: 45%;
   float: left;
 }
 .presentation-name {
@@ -62,13 +62,15 @@ a:hover {
   color: #3E3E3E;
 }
 .header-contact {
-  width: 40%;
+  width: 55%;
   float: right;
+  padding-top: 10px;
   font-size: 9pt;
+  text-align: right;
 }
 .header-contact span {
-  clear: both;
-  float: right;
+  display: inline-block;
+  margin-left: 5px;
   color: #3E3E3E;
 }
 .header-contact a {
@@ -80,7 +82,7 @@ a:hover {
   clear: both;
 }
 .content-introduction {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .content-section {
   width: 100%;
@@ -88,13 +90,10 @@ a:hover {
 .section-header {
   width: 100%;
   color: #3E3E3E;
-  clear: left;
-  float: left;
   /* border-bottom: 2px solid #3E3E3E; */
   letter-spacing: +1.5px;
   margin-bottom: -2px;
-}
-.section-header {
+  margin-top: -5px;
   float: left;
   clear: none;
   font-size: 13pt;
@@ -120,13 +119,16 @@ a:hover {
   margin-top: 3px;
   margin-bottom: 5px;
 }
-.entry-header, .content-introduction {
+.entry-header,
+.content-introduction {
   font-size: 11pt;
 }
-.entry-description {
+.entry-description,
+.entry-when {
   font-size: 10.75pt;
 }
-.entry-detail, .detail-short {
+.entry-detail,
+.detail-short {
   font-size: 10pt;
 }
 .content-entry {
@@ -151,12 +153,19 @@ a:hover {
   float: left;
 }
 .entry-when {
-  float: left;
+  float: right;
 }
 .entry-where {
   color: #252525;
-  float: right;
+  float: left;
+  clear: both;
+  display: block;
   font-weight: 600;
+}
+.entry-where ~ .entry-what {
+  font-weight: 400;
+  clear: left;
+  font-style: italic;
 }
 .entry-description {
   clear: both;

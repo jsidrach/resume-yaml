@@ -10,10 +10,10 @@ contact:
     url: "https://eff.org"
   email: "example@email.com"
   github:
-    name: "github.com/username"
+    name: "username"
     url: "https://github.com/"
   linkedin:
-    name: "linkedin.com/username"
+    name: "username"
     url: "https://linkedin.com/"
 
 # Introduction (opening paragraph)
@@ -57,6 +57,14 @@ sections:
     entries:
       -
         what: "Project #1"
+        what-url: "https://github.com/"
+        description-short: "short description of the project"
+        details:
+          - "Detailed explanation about the project goal or implementation #1"
+          - "Detailed explanation about the project goal or implementation #2"
+          - "Detailed explanation about the project goal or implementation #3"
+      -
+        what: "Project #2"
         what-url: "https://github.com/"
         description-short: "short description of the project"
         details:
