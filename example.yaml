@@ -62,7 +62,6 @@ sections:
         details:
           - "Detailed explanation about the project goal or implementation #1"
           - "Detailed explanation about the project goal or implementation #2"
-          - "Detailed explanation about the project goal or implementation #3"
       -
         what: "Project #2"
         what-url: "https://github.com/"
@@ -70,7 +69,6 @@ sections:
         details:
           - "Detailed explanation about the project goal or implementation #1"
           - "Detailed explanation about the project goal or implementation #2"
-          - "Detailed explanation about the project goal or implementation #3"
   # Skills
   - name: "Skills"
     entries:
@@ -90,8 +88,6 @@ sections:
         details-short:
           - "Award name #2 (Date #2)"
           - "Award name #3 (Date #3)"
-          - "Award name #4 (Date #4)"
-          - "Award name #5 (Date #5)"
   # Interests
   - name: "Interests"
     entries:
