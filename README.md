@@ -18,7 +18,7 @@ Run
 Make sure your data file is named `resume.yaml`.
 Generate the resume by executing `make`.
 You can also generate the example resume with `make example`.
-To save your resume in pdf format, simply open it with any browser and select `Print as PDF`.
+To save your resume in PDF format, open the generated HTML in Firefox, print it as PS (Postcript), and then transform it to PDF using ```ps2pdf``` or a similar utility.
 
 License
 ----
