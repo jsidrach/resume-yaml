@@ -9,10 +9,9 @@ Example
 ![](output/example.png)
 See the [output folder](output/) for all output formats.
 
-Installation
+Prequisites
 ----
-In Ubuntu, just run `make install`.
-Alternatively, install any [mustache](https://mustache.github.io/) implementation and add the mustache binary to your library path.
+Install any [mustache](https://mustache.github.io/) implementation and add the mustache binary to your library path.
 
 Run
 ----
@@ -28,6 +27,5 @@ Tech
 ----
 resume-yaml uses a number of open source projects to work properly:
 
-* [YAML](http://www.yaml.org/) - human friendly data serialization standard
 * [mustache](https://mustache.github.io/) - logic-less templates
 * [Font Awesome](https://fortawesome.github.io/Font-Awesome/) - font toolkit

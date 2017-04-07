@@ -1,4 +1,4 @@
-.PHONY: resume example install
+.PHONY: resume example
 
 resume:
 	mustache input/resume.yaml resumeHTML.mustache > output/resume.html
@@ -11,6 +11,3 @@ example:
 	mustache input/example.yaml resumeMarkdown.mustache > output/example.md
 	mustache input/example.yaml resumeText.mustache > output/example.txt
 	cp resumeHTML.css output/resume.css
-
-install:
-	sudo apt install ruby-mustache
