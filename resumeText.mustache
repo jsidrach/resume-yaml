@@ -1,23 +1,23 @@
 {{contact.name}} - {{contact.title}}
---------
+
 {{#contact.email}}
-- Email: {{.}}{{/contact.email}}{{#contact.phone}}
-- Phone: {{.}}{{/contact.phone}}{{#contact.address}}
-- Address: {{.}}{{/contact.address}}{{#contact.webpage}}
-- Webpage: {{url}}{{/contact.webpage}}{{#contact.github}}
-- GitHub: {{url}}{{/contact.github}}{{#contact.linkedin}}
-- LinkedIn: {{url}}{{/contact.linkedin}}{{#contact.misc}}
-- {{name}}: {{url}}{{/contact.misc}}{{#introduction}}
+Email: {{.}}{{/contact.email}}{{#contact.phone}}
+Phone: {{.}}{{/contact.phone}}{{#contact.address}}
+Address: {{.}}{{/contact.address}}{{#contact.webpage}}
+Webpage: {{url}}{{/contact.webpage}}{{#contact.github}}
+GitHub: {{url}}{{/contact.github}}{{#contact.linkedin}}
+LinkedIn: {{url}}{{/contact.linkedin}}{{#contact.misc}}
+{{name}}: {{url}}{{/contact.misc}}{{#introduction}}
 
 {{.}}{{/introduction}}
 
 {{#sections}}
 {{name}}
---------
-{{#entries}}{{#what}}- {{.}}{{#where}},{{/where}}{{/what}}{{#description-short}}{{#what}}: {{/what}}{{.}}{{/description-short}}{{#where}} {{.}}{{/where}}{{#when}} ({{.}}){{/when}}{{#what-url}} - {{.}}{{/what-url}}{{#description}}
-    {{.}}{{/description}}{{#details}}
-    - {{.}}{{/details}}{{#details-short}}
-    - {{.}}{{/details-short}}
-{{/entries}}
+---{{#entries}}{{#where}}
+{{.}}{{/where}}{{#when}} | {{.}}{{/when}}{{#location}} | {{.}}{{/location}}{{#what}}
+{{#where}}  {{/where}}{{.}}{{/what}}{{#what-url}}
+  {{.}}{{/what-url}}{{#description}}
+  {{.}}{{/description}}{{#details}}
+    - {{.}}{{/details}}{{/entries}}
 
 {{/sections}}

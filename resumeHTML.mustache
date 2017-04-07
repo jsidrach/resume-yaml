@@ -76,10 +76,10 @@
                         </a>
                       {{/what-url}}
                       </span>
+                      {{#location}}
+                        <span class="entry-location">{{.}}</span>
+                      {{/location}}
                     {{/what}}
-                    {{#description-short}}
-                      <span class="entry-description-short">&nbsp;-&nbsp;{{.}}</span>
-                    {{/description-short}}
                   </div>
                   {{#description}}
                     <span class="entry-description">{{.}}</span>
@@ -89,13 +89,6 @@
                       <span>- {{.}}</span>
                     </span>
                   {{/details}}
-                  <span class="entry-details-short">
-                    {{#details-short}}
-                      <span class="detail-short">
-                        <span>- {{.}}</span>
-                      </span>
-                    {{/details-short}}
-                  </span>
                 </div>
               {{/entries}}
             </div>

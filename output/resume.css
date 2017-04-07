@@ -1,0 +1,203 @@
+/*
+  Letter size: 8.5 by 11 inches
+  A4 size: 210 by 297 millimiters;
+*/
+html {
+  background-color: #525659;
+  padding: 0;
+}
+body {
+  background-color: white;
+  width: 8.5in;
+  height: 11in;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family:  'Source Sans Pro', sans-serif;
+  color: #3E3E3E;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.resume {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.resume-header {
+  width: 100%;
+}
+.header-presentation {
+  width: 45%;
+  float: left;
+}
+.presentation-name {
+  font-size: 22pt;
+  font-weight: 600;
+  color: #3E3E3E;
+}
+.presentation-label {
+  font-size: 16pt;
+  font-style: italic;
+  font-weight: 400;
+  color: #3E3E3E;
+}
+.header-contact {
+  width: 55%;
+  float: right;
+  padding-top: 10px;
+  font-size: 9pt;
+  text-align: right;
+}
+.header-contact span {
+  display: inline-block;
+  margin-left: 5px;
+  color: #3E3E3E;
+}
+.header-contact a {
+  color: #3E3E3E;
+}
+.resume-content {
+  margin-top: 11px;
+  float: left;
+  clear: both;
+}
+.content-introduction {
+  margin-bottom: 10px;
+}
+.content-section {
+  width: 100%;
+}
+.section-header {
+  width: 100%;
+  letter-spacing: +1.5px;
+  margin-bottom: -3px;
+  margin-top: -3px;
+  float: left;
+  clear: none;
+  font-size: 13pt;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.section-header span {
+  background-color: white;
+}
+.section-header span:after {
+  content: "";
+  display: block;
+  height: 13pt;
+  border-top: 3px solid #3E3E3E;
+  margin-top: -9pt;
+  margin-bottom: -7pt;
+  z-index: -1;
+}
+.section-content {
+  float: left;
+  width: 100%;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+.entry-header,
+.content-introduction {
+  font-size: 11pt;
+}
+.entry-when,
+.entry-location {
+  font-size: 10.75pt;
+}
+.entry-detail,
+.entry-description {
+  font-size: 10pt;
+}
+.content-entry {
+  width: 100%;
+  clear: left;
+  float: left;
+  margin-bottom: 3px;
+}
+.entry-header {
+  width: 100%;
+  clear: both;
+}
+.entry-what {
+  color: #252525;
+  font-weight: 600;
+  float: left;
+}
+.entry-what a {
+  color: #252525;
+}
+.entry-when,
+.entry-location {
+  float: right;
+}
+.entry-location {
+  font-style: italic;
+}
+.entry-where {
+  color: #252525;
+  float: left;
+  clear: both;
+  display: block;
+  font-weight: 600;
+}
+.entry-where ~ .entry-what {
+  font-size: 10.5pt;
+  font-weight: 400;
+  clear: left;
+}
+.entry-description {
+  clear: both;
+  float: left;
+}
+.entry-detail {
+  clear: both;
+  float: left;
+}
+
+/* Font */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url('vendor/fonts/SourceSansPro-Light.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url('vendor/fonts/SourceSansPro-Regular.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Source Sans Pro Semibold'), local('SourceSansPro-Semibold'), url('vendor/fonts/SourceSansPro-Semibold.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url('vendor/fonts/SourceSansPro-Bold.BFRXt'CDhS66znb_k.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Source Sans Pro Black'), local('SourceSansPro-Black'), url('vendor/fonts/SourceSansPro-Black.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}

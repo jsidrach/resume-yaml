@@ -1,14 +1,16 @@
-resume: resume.yaml resume.css resume.mustache vendor/css/font-awesome.min.css
-	mustache resume.yaml resume.mustache > resume.html
-	mustache resume.yaml resumeText.mustache > resume.txt
+.PHONY: resume example install
 
-example: example.yaml resume.css resume.mustache vendor/css/font-awesome.min.css
-	mustache example.yaml resume.mustache > example.html
-	mustache example.yaml resumeText.mustache > example.txt
+resume:
+	mustache input/resume.yaml resumeHTML.mustache > output/resume.html
+	mustache input/resume.yaml resumeMarkdown.mustache > output/resume.md
+	mustache input/resume.yaml resumeText.mustache > output/resume.txt
+	cp resumeHTML.css output/resume.css
 
-.PHONY: install clean
+example:
+	mustache input/example.yaml resumeHTML.mustache > output/example.html
+	mustache input/example.yaml resumeMarkdown.mustache > output/example.md
+	mustache input/example.yaml resumeText.mustache > output/example.txt
+	cp resumeHTML.css output/resume.css
 
 install:
 	sudo apt install ruby-mustache
-clean:
-	rm -f resume.html resume.txt resume.pdf example.html example.txt example.pdf

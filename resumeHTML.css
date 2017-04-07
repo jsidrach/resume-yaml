@@ -81,8 +81,8 @@ a:hover {
 .section-header {
   width: 100%;
   letter-spacing: +1.5px;
-  margin-bottom: -2px;
-  margin-top: -5px;
+  margin-bottom: -3px;
+  margin-top: -3px;
   float: left;
   clear: none;
   font-size: 13pt;
@@ -91,7 +91,6 @@ a:hover {
 }
 .section-header span {
   background-color: white;
-  magin-right: 10px;
 }
 .section-header span:after {
   content: "";
@@ -99,7 +98,7 @@ a:hover {
   height: 13pt;
   border-top: 3px solid #3E3E3E;
   margin-top: -9pt;
-  margin-bottom: -6.5pt;
+  margin-bottom: -7pt;
   z-index: -1;
 }
 .section-content {
@@ -112,19 +111,19 @@ a:hover {
 .content-introduction {
   font-size: 11pt;
 }
-.entry-description,
-.entry-when {
+.entry-when,
+.entry-location {
   font-size: 10.75pt;
 }
 .entry-detail,
-.detail-short {
+.entry-description {
   font-size: 10pt;
 }
 .content-entry {
   width: 100%;
   clear: left;
   float: left;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 .entry-header {
   width: 100%;
@@ -138,11 +137,12 @@ a:hover {
 .entry-what a {
   color: #252525;
 }
-.entry-description-short {
-  float: left;
-}
-.entry-when {
+.entry-when,
+.entry-location {
   float: right;
+}
+.entry-location {
+  font-style: italic;
 }
 .entry-where {
   color: #252525;
@@ -152,9 +152,9 @@ a:hover {
   font-weight: 600;
 }
 .entry-where ~ .entry-what {
+  font-size: 10.5pt;
   font-weight: 400;
   clear: left;
-  font-style: italic;
 }
 .entry-description {
   clear: both;
@@ -163,16 +163,6 @@ a:hover {
 .entry-detail {
   clear: both;
   float: left;
-}
-.entry-details-short {
-  clear: both;
-  float: left;
-  width: 100%;
-}
-.detail-short {
-  width: 50%;
-  float: left;
-  display: inline-block;
 }
 
 /* Font */

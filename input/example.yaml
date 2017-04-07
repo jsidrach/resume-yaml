@@ -41,6 +41,7 @@ sections:
         what: "Work Title #1"
         when: "Date #1 - Present"
         where: "Company or institution name, department #1"
+        location: "City #1, State #1"
         details:
           - "Detailed explanation about the work you did there #1"
           - "Detailed explanation about the work you did there #2"
@@ -49,6 +50,7 @@ sections:
         what: "Work Title #2"
         when: "Date #1 - Date #2"
         where: "Company or institution name, department #2"
+        location: "City #2, State #2"
         details:
           - "Detailed explanation about the work you did there #1"
           - "Detailed explanation about the work you did there #2"
@@ -58,14 +60,21 @@ sections:
       -
         what: "Project #1"
         what-url: "https://github.com/"
-        description-short: "short description of the project"
+        description: "Description of the project"
         details:
           - "Detailed explanation about the project goal or implementation #1"
           - "Detailed explanation about the project goal or implementation #2"
       -
         what: "Project #2"
         what-url: "https://github.com/"
-        description-short: "short description of the project"
+        description: "Description of the project"
+        details:
+          - "Detailed explanation about the project goal or implementation #1"
+          - "Detailed explanation about the project goal or implementation #2"
+      -
+        what: "Project #3"
+        what-url: "https://github.com/"
+        description: "Description of the project"
         details:
           - "Detailed explanation about the project goal or implementation #1"
           - "Detailed explanation about the project goal or implementation #2"
@@ -74,39 +83,18 @@ sections:
     entries:
       -
         what: "Competences"
-        description-short: "Competence #1, Competence #2, Competence #3, Competence #4"
+        description: "Competence #1, Competence #2, Competence #3, Competence #4"
       -
         what: "Software"
-        description-short: "Software #1, Software #2, Software #3"
+        description: "Software #1, Software #2, Software #3"
   # Honors, grants and awards
   - name: "Honors, grants and awards"
     entries:
       -
         description: "General overview of the honors, grands and awards you have received along your career"
         details:
-          - "Extremely long award name #1 (Date #1)"
-        details-short:
+          - "Award name #1 (Date #1)"
           - "Award name #2 (Date #2)"
-          - "Award name #3 (Date #3)"
-  # Interests
-  - name: "Interests"
-    entries:
-      -
-        details-short:
-          - "Interest #1"
-          - "Interest #2"
-  # Languages
-  - name: "Languages"
-    entries:
-      -
-        what: "Language #1"
-        description-short: "How fluent are you in language #1"
-      -
-        what: "Language #2"
-        description-short: "How fluent are you in language #2"
-        details-short:
-          - "Certification #1 (Date #1) - Score: XXX/YYY"
-          - "Certification #2 (Date #2) - Score: XXX/TTT"
   # References
   - name: "References"
     entries:

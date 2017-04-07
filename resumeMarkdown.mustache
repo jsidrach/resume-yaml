@@ -1,0 +1,29 @@
+# {{contact.name}} | {{contact.title}}
+
+## Contact
+{{#contact.email}}
+- Email: {{.}}{{/contact.email}}{{#contact.phone}}
+- Phone: {{.}}{{/contact.phone}}{{#contact.address}}
+- Address: {{.}}{{/contact.address}}{{#contact.webpage}}
+- Webpage: {{url}}{{/contact.webpage}}{{#contact.github}}
+- GitHub: {{url}}{{/contact.github}}{{#contact.linkedin}}
+- LinkedIn: {{url}}{{/contact.linkedin}}{{#contact.misc}}
+{{name}}: {{url}}{{/contact.misc}}{{#introduction}}
+
+{{.}}{{/introduction}}
+
+{{#sections}}
+## {{name}}
+{{#entries}}{{#where}}
+### {{.}}{{/where}}{{#what}}
+**{{.}}**{{/what}}{{#when}}
+
+*{{.}}{{#location}} | {{.}}{{/location}}*{{/when}}{{#what-url}}
+
+{{.}}{{/what-url}}{{#description}}
+
+{{.}}{{/description}}{{#details}}
+  - {{.}}{{/details}}
+
+{{/entries}}
+{{/sections}}
