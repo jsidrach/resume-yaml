@@ -63,6 +63,9 @@
                     {{#where}}
                       <span class="entry-where">{{.}}</span>
                     {{/where}}
+                    {{#location}}
+                      <span class="entry-location">{{.}}</span>
+                    {{/location}}
                     {{#when}}
                       <span class="entry-when">{{.}}</span>
                     {{/when}}
@@ -76,9 +79,6 @@
                         </a>
                       {{/what-url}}
                       </span>
-                      {{#location}}
-                        <span class="entry-location">{{.}}</span>
-                      {{/location}}
                     {{/what}}
                   </div>
                   {{#description}}

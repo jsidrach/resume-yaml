@@ -140,6 +140,7 @@ a:hover {
 .entry-when,
 .entry-location {
   float: right;
+  clear: right;
 }
 .entry-location {
   font-style: italic;
@@ -151,7 +152,7 @@ a:hover {
   display: block;
   font-weight: 600;
 }
-.entry-where ~ .entry-what {
+.entry-when ~ .entry-what {
   font-size: 10.5pt;
   font-weight: 400;
   clear: left;

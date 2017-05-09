@@ -13,61 +13,42 @@ Introduction paragraph, who are you, what motivates you and what are you looking
 ## Education
 
 ### Institution name #1
-**Name of education program #1**
-
-*Date #1 - Date #2*
+**Name of education program #1** | *Date #1 - Date #2*
 
 GPA: X.X/4.0. Relevant courses: Course #1, Course #2, Course #3
 
-
 ### Institution name #2
-**Name of education program #2**
-
-*Date #1 - Date #2*
+**Name of education program #2** | *Date #1 - Date #2*
 
 GPA: X.X/10. Something relevant about the program
 
 ## Experience
 
-### Company or institution name, department #1
-**Work Title #1**
-
-*Date #1 - Present | City #1, State #1*
+### Company or institution name, department #1 | City #1, State #1
+**Work Title #1** | *Date #1 - Present*
   - Detailed explanation about the work you did there #1
   - Detailed explanation about the work you did there #2
   - Really long and detailed explanation about the work you did there, explaining what you achieved and how did you achieved that, what obstacles you overcame and how it made you a better professional in your field of expertise
 
+**Work Title #2** | *Date #3 - Date #4*
+  - Detailed explanation about the work you did there #3
+  - Detailed explanation about the work you did there #4
 
-### Company or institution name, department #2
-**Work Title #2**
-
-*Date #1 - Date #2 | City #2, State #2*
+### Company or institution name, department #2 | City #2, State #2
+**Work Title #2** | *Date #1 - Date #2*
   - Detailed explanation about the work you did there #1
   - Detailed explanation about the work you did there #2
+  - Really long and detailed explanation about the work you did there, explaining what you achieved and how did you achieved that, what obstacles you overcame and how it made you a better professional in your field of expertise
 
 ## Projects
 
-**Project #1**
-
-https://github.com/
+**Project #1** - https://github.com/
 
 Description of the project
   - Detailed explanation about the project goal or implementation #1
   - Detailed explanation about the project goal or implementation #2
 
-
-**Project #2**
-
-https://github.com/
-
-Description of the project
-  - Detailed explanation about the project goal or implementation #1
-  - Detailed explanation about the project goal or implementation #2
-
-
-**Project #3**
-
-https://github.com/
+**Project #2** - https://github.com/
 
 Description of the project
   - Detailed explanation about the project goal or implementation #1
@@ -78,7 +59,6 @@ Description of the project
 **Competences**
 
 Competence #1, Competence #2, Competence #3, Competence #4
-
 
 **Software**
 

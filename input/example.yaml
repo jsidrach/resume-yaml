@@ -48,12 +48,19 @@ sections:
           - "Really long and detailed explanation about the work you did there, explaining what you achieved and how did you achieved that, what obstacles you overcame and how it made you a better professional in your field of expertise"
       -
         what: "Work Title #2"
+        when: "Date #3 - Date #4"
+        details:
+          - "Detailed explanation about the work you did there #3"
+          - "Detailed explanation about the work you did there #4"
+      -
+        what: "Work Title #2"
         when: "Date #1 - Date #2"
         where: "Company or institution name, department #2"
         location: "City #2, State #2"
         details:
           - "Detailed explanation about the work you did there #1"
           - "Detailed explanation about the work you did there #2"
+          - "Really long and detailed explanation about the work you did there, explaining what you achieved and how did you achieved that, what obstacles you overcame and how it made you a better professional in your field of expertise"
   # Projects
   - name: "Projects"
     entries:
@@ -66,13 +73,6 @@ sections:
           - "Detailed explanation about the project goal or implementation #2"
       -
         what: "Project #2"
-        what-url: "https://github.com/"
-        description: "Description of the project"
-        details:
-          - "Detailed explanation about the project goal or implementation #1"
-          - "Detailed explanation about the project goal or implementation #2"
-      -
-        what: "Project #3"
         what-url: "https://github.com/"
         description: "Description of the project"
         details:

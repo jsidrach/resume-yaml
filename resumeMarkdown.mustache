@@ -15,15 +15,11 @@
 {{#sections}}
 ## {{name}}
 {{#entries}}{{#where}}
-### {{.}}{{/where}}{{#what}}
-**{{.}}**{{/what}}{{#when}}
-
-*{{.}}{{#location}} | {{.}}{{/location}}*{{/when}}{{#what-url}}
-
-{{.}}{{/what-url}}{{#description}}
+### {{.}}{{/where}}{{#location}} | {{.}}{{/location}}{{#what}}
+**{{.}}**{{/what}}{{#when}} | *{{.}}*{{/when}}{{#what-url}} - {{.}}{{/what-url}}{{#description}}
 
 {{.}}{{/description}}{{#details}}
   - {{.}}{{/details}}
-
 {{/entries}}
+
 {{/sections}}

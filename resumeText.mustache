@@ -14,10 +14,9 @@ LinkedIn: {{url}}{{/contact.linkedin}}{{#contact.misc}}
 {{#sections}}
 {{name}}
 ---{{#entries}}{{#where}}
-{{.}}{{/where}}{{#when}} | {{.}}{{/when}}{{#location}} | {{.}}{{/location}}{{#what}}
-{{#where}}  {{/where}}{{.}}{{/what}}{{#what-url}}
-  {{.}}{{/what-url}}{{#description}}
-  {{.}}{{/description}}{{#details}}
-    - {{.}}{{/details}}{{/entries}}
+{{.}}{{/where}}{{#location}} | {{.}}{{/location}}{{#what}}
+{{#when}}  {{/when}}{{.}}{{#when}} | {{.}}{{/when}}{{/what}}{{#what-url}} - {{.}}{{/what-url}}{{#description}}
+{{#what}}  {{/what}}{{.}}{{/description}}{{#details}}
+{{#what}}  {{/what}}  - {{.}}{{/details}}{{/entries}}
 
 {{/sections}}
