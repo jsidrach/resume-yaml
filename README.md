@@ -1,4 +1,6 @@
-# Resume-YAML
+# Resume-YAML [Archived]
+
+#### **Note**: development has been moved to [resume-generator](https://github.com/jsidrach/resume-generator)
 
 Elegant one page resume, generated from a [YAML](http://www.yaml.org/) data file using [mustache](https://mustache.github.io/).
 Outputs to plain text, Markdown and HTML.
